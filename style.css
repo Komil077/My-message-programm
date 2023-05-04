@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./Mercedes-Benz_2017-18_GT_R_541533_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+}
+
+
+.message-box {
+    border: 3px solid lightblue;
+    /* padding: 0px 10px; */
+    width: 400px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.chat-name {
+    text-align: center;
+}
+.chat-name h1 {
+    color: white;
+}
+.chat-name p {
+    color: white;
+}
+
+
+
+.message-list {
+    list-style-type: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message-list .accepted {
+    background-color: rgb(194, 141, 244);
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.message-list .sent {
+    background-color: lightgray;
+    padding: 1px 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.message-paragrif {
+    line-break: anywhere;
+}
+
+
+
+.message-form {
+    /* padding: 10px 15px; */
+    /* background-color: white; */
+}
+
+.message-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.message-text {
+    resize: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    margin-right: 10px;
+}
+
+.message-send {
+    background-color: rgb(194, 141, 244);
+    color: white;
+    width: 80px;
+    padding: 15px 0px;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+    border-radius: 15px;
+}
+.message-send:hover {
+    color: black;
+    transition: 1s;
+}
